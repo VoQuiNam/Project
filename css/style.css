@@ -1,0 +1,145 @@
+/*Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Times New Roman", Georgia, Serif;
+    overflow-x: hidden;
+}
+
+/*HEADER*/
+#nav{
+    width: 100%;
+    height:55px;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.nav_tittle{
+}
+
+.nav_tittle-item{
+    text-decoration:none;
+    color:#000;
+    font-size:15px;
+    line-height:53px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav_tittle-item1{
+    margin-left:46px;
+}
+
+.nav_tittle-item2{
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.nav_tittle-right{
+    float:right;
+}
+
+.nav_button:hover{
+    color:#000;
+    background-color:#ccc;
+}
+
+/*SLIDER*/
+#slider{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.slider_letter{
+    position: absolute;
+    color: grey;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    top: 730px;
+    left: 50px;
+}
+
+/*Content*/
+#content{
+    max-width: 100%;
+    padding: 64px 0 112px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+}
+
+.content_main{
+    padding: 10px 57px;
+    position: absolute;
+    line-height: 1.5;
+    top: 59px;
+    left: 660px;
+}
+
+.content-tittle{
+    margin-top: 10px;
+    font-size: 36px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 500;
+    color: #000;
+}
+
+.content-subtitles{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #000;
+}
+
+.content-md{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    text-align: justify;/*can le chu cho dep*/
+}
+
+.content-md2{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    text-align: justify;
+}
+
+.content_highlights{
+    color: #000;
+    background-color: #f1f1f1;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.img-cake{
+    max-width: 100%;
+    height: 583px;
+    opacity: 0.75;
+    border-radius: 4px;
+    position: relative;
+    right: -150px;
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid rgb(206, 184, 184) ;
+    margin: 100px 0;
+}
